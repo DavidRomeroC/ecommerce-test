@@ -1,0 +1,35 @@
+.cards__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+
+    .card__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 30px;
+        border-radius: 20px;
+        cursor: pointer;
+        // border: 1px solid red;
+        background-color: white;
+        width: 250px;
+        height: auto;
+
+        img {
+            border-radius: 20px;
+        }
+
+        h3{
+            color: black;
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .cards__content {
+        flex-direction: column;
+    }
+}

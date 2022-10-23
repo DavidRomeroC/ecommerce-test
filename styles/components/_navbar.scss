@@ -1,0 +1,35 @@
+.nav__content {
+    .logo__search {
+        .search__content {
+
+            form {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                button {
+                    height: 46px;
+                    width: 31px;
+                    background-color: #FFC277;
+                    border: none;
+
+                    &:hover {
+                        background-color: #ffc277a6;
+                    }
+                }
+
+                input {
+                    height: 44px;
+                    background-color: #FFC277;
+                    border: none;
+                    font-weight: bolder;
+                    
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
